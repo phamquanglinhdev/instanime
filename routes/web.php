@@ -25,6 +25,16 @@ Route::get("/chat",function (){
 Route::get("/trending",function (){
     return view("client.trending");
 })->name("client.trending");
+Route::get("/market",function (){
+    return view("client.market");
+})->name("client.market");
+Route::get("/profile",function (){
+    return view("client.profile");
+})->name("client.profile");
+Route::get("/setting",function (){
+    return view("client.setting");
+})->name("client.setting");
+
 Route::middleware([])->prefix("auth")->group(function (){
     Route::get("/login",function (){
         return view("auth.login");

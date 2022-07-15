@@ -116,12 +116,12 @@
                         <span> Trending </span> </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route("client.market")}}">
                         <i class="uil-store"></i>
                         <span> Marketplace </span> </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route("client.setting")}}">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -132,13 +132,13 @@
                         <span> Settings </span>
                     </a>
                     <ul>
-                        <li><a href="#">General </a></li>
-                        <li><a href="#"> Account setting </a></li>
-                        <li><a href="#">Billing <span class="nav-tag">3</span> </a></li>
+                        <li><a href="{{route("client.setting")}}">General </a></li>
+                        <li><a href="{{route("client.setting")}}"> Account setting </a></li>
+                        <li><a href="{{route("client.setting")}}">Billing <span class="nav-tag">3</span> </a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{route("client.profile")}}">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
